@@ -1,0 +1,107 @@
+/* 分类卡片折叠 */
+#aside_content
+.card-archives
+ul.card-archive-list
+> .card-archive-list-item
+a
+span:first-child,
+#aside_content
+.card-categories
+ul.card-category-list
+> .card-category-list-item
+a
+span:first-child {
+    width: auto;
+    min-width: 50%;
+}
+
+/* MAC 代码框美化 */
+#article-container figure.highlight,#article-container pre{color:#a9a9a9;background:#f3f3f3}#article-container figure.highlight .highlight-tools{color:#a9a9a9;background:#eee}#article-container figure.highlight .gutter pre{color:#999;background:#f3f3f3}#article-container figure.highlight figcaption a{color:#f3f3f3!important}
+
+/* 背景优化 */
+#web_bg {
+  /* 背景图像的地址（url括号里）  */
+  background: url(https://i.loli.net/2020/08/21/FdmYJujPeK2pktC.jpg);
+  /* 背景图像不重复 */
+  background-repeat: no-repeat;
+  /* 背景图像大小 */
+  background-size: cover;
+}
+
+/* 文章页背景 */
+.layout_post>#post {
+  /* 以下代表白色透明度为0.3 */
+  background: rgba(255,255,255,0.5);
+}
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+  /* 以下代表白色透明度为0.3 */
+  background: rgba(255,255,255,.3);
+}
+
+/* 博主昵称颜色 */
+.author-info__name {
+  color: #42d9ff;
+}
+
+/* 评论优化 */
+/* ————————————————————————————————————————————*/
+/* 评论框  */
+
+.vwrap {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 30px 0px;
+}
+
+
+/* 提交按钮 */
+
+#vcomment button {
+  padding: 0.3rem 0.8rem;
+  border-color: #fff;
+  background-color: #e58a8a;
+  color: #fff;
+  font-size: 0.7rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+/* 评论区代码块 */
+
+.v[data-class=v] code {
+  color: #c7254e;
+  background-color: #F9F2F4;
+}
+/* 设置评论框 */
+
+.vcard {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 0px 0px;
+}
+
+
+/* 取消回复聊天框 */
+
+.vquote .vcard {
+  box-shadow: 2px 2px 5px transparent;
+  background: rgba(255, 255, 255, 0.0);
+  padding: 0px;
+}
+/* -------------------------------------------*/
+
+/* 页脚透明 */
+
+#footer {
+  background: transparent !important;
+}
+
